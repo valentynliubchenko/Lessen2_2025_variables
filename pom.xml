@@ -12,6 +12,7 @@
   <modules>
     <module>primitives</module>
     <module>stringexamples</module>
+    <module>filesexample</module>
   </modules>
 
   <properties>
