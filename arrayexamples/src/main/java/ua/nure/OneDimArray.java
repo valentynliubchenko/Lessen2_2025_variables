@@ -1,15 +1,18 @@
 package ua.nure;
 
+import lombok.Data;
 import lombok.Getter;
+import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;
 import java.util.Random;
 
-@Getter
+@Data
 @Slf4j
 public class OneDimArray {
     private int[] array;
+    private int size;
 
     public OneDimArray(int size) {
         if (size <= 0) {
@@ -18,13 +21,13 @@ public class OneDimArray {
         this.array = new int[size];
     }
 
-//    public void fillRandom(int min, int max) {
-//        Random random = new Random();
-//        for (int i = 0; i < array.length; i++) {
-//            array[i] = random.nextInt(max - min + 1) + min;
-//        }
-//        log.debug("Масив заповнено випадковими значеннями в діапазоні [{}, {}]", min, max);
-//    }
+    public void fillRandom(int min, int max) {
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(max - min + 1) + min;
+        }
+        log.debug("Масив заповнено випадковими значеннями в діапазоні [{}, {}]", min, max);
+    }
 
     public int sum() {
         int total = 0;
@@ -45,12 +48,4 @@ public class OneDimArray {
         return Arrays.toString(array);
     }
 
-
-    public void fillRandom(int min, int max) {
-        Random random = new Random();
-        for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(max - min + 1) + min;
-        }
-        log.debug("Масив заповнено випадковими значеннями в діапазоні [{}, {}]", min, max);
-    }
 }
