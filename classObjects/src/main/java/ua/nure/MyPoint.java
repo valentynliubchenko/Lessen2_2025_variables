@@ -9,4 +9,9 @@ public record MyPoint(int x, int y) {
     public static MyPoint create(){
         return new MyPoint(100, 100);
     }
+
+    @Override
+    public int hashCode() {
+        return x+y;
+    }
 }
