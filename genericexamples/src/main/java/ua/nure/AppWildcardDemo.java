@@ -3,7 +3,7 @@ package ua.nure;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WildcardDemo {
+public class AppWildcardDemo {
     public static void main(String[] args) {
         // Приклад з Upper Bounded Wildcard
         List<Integer> integers = new ArrayList<>();
