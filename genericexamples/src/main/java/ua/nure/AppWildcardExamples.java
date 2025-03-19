@@ -40,8 +40,7 @@ public class AppWildcardExamples {
     }
 
     // Upper Bounded Wildcard з додатковим обмеженням Comparable
-    public static <T extends Number & Comparable<? super T>> T findMax(List
-                                                                               <T> list) {
+    public static <T extends Number & Comparable<? super T>> T findMax(List<T> list) {
         if (list.isEmpty()) {
             return null;
         }
