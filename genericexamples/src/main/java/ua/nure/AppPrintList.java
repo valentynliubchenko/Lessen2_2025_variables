@@ -13,6 +13,11 @@ public class AppPrintList {
         printer.printList(integers);
         printer.printList(strings);
 
-        log.info("Hello World! {} {}", 232, 2.5);
+        List<Double> doubles = Arrays.asList(1.5, 2.5, 3.5);
+        double sum1 = printer.sumOfElements(integers); // 6.0
+        double sum2 = printer.sumOfElements(doubles);  // 7.5
+//        double sum3 = printer.sumOfElements(strings);  // 7.5
+
+        log.info("sum1 {} sum2 {}", sum1, sum2);
     }
 }

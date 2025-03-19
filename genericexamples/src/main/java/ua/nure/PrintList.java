@@ -8,4 +8,11 @@ public class PrintList {
             System.out.println(item);
         }
     }
+    public double sumOfElements(List<? extends Number > list) {
+        double sum = 0;
+        for (Number number : list) {
+            sum += number.doubleValue();
+        }
+        return sum;
+    }
 }
