@@ -15,6 +15,7 @@
     <module>filesexample</module>
     <module>arrayexamples</module>
     <module>classObjects</module>
+    <module>genericexamples</module>
   </modules>
 
   <properties>
