@@ -17,6 +17,7 @@
     <module>classObjects</module>
     <module>genericexamples</module>
       <module>sortsetmapexamples</module>
+    <module>threadexamples</module>
   </modules>
 
   <properties>
