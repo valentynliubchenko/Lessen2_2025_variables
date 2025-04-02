@@ -76,9 +76,9 @@ public class PriorityExample2 {
         counter[0]++;
 
         // Кожні 10000 виконань виводимо повідомлення
-        if (counter[0] % 10000 == 0) {
-            System.out.println("[Високий пріоритет] Оброблено важливих даних: " + counter[0]);
-        }
+//        if (counter[0] % 10000 == 0) {
+//            System.out.println("[Високий пріоритет] Оброблено важливих даних: " + counter[0]);
+//        }
     }
 
     private static void doBackgroundTask(int[] counter) {
@@ -86,8 +86,8 @@ public class PriorityExample2 {
         counter[0]++;
 
         // Кожні 10000 виконань виводимо повідомлення
-        if (counter[0] % 10000 == 0) {
-            System.out.println("[Низький пріоритет] Виконано фонових задач: " + counter[0]);
-        }
+//        if (counter[0] % 10000 == 0) {
+//            System.out.println("[Низький пріоритет] Виконано фонових задач: " + counter[0]);
+//        }
     }
 }
