@@ -3,7 +3,7 @@ package ua.nure;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class App
+public class AppSimpleRunnable
 {
     public static void main( String[] args )
     {
