@@ -18,6 +18,7 @@
     <module>genericexamples</module>
       <module>sortsetmapexamples</module>
     <module>threadexamples</module>
+    <module>ThreadExampleWait</module>
   </modules>
 
   <properties>
