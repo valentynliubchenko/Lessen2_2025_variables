@@ -19,6 +19,7 @@
       <module>sortsetmapexamples</module>
     <module>threadexamples</module>
     <module>ThreadExampleWait</module>
+      <module>UI</module>
   </modules>
 
   <properties>
