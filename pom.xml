@@ -20,6 +20,8 @@
     <module>threadexamples</module>
     <module>ThreadExampleWait</module>
     <module>examplesUI</module>
+    <module>socetExamples</module>
+    <module>socketExamples</module>
   </modules>
 
   <properties>
