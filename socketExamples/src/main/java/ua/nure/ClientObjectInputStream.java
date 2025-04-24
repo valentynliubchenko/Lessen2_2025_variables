@@ -8,8 +8,8 @@ import java.net.Socket;
 
 public class ClientObjectInputStream {
     public static void main(String[] args) {
-        int port =8083;
-        Person person = new Person("Микола", 25);
+        int port =8082;
+        Person person = new Person("Микола", 22);
 
         System.out.println( "Client is starting..." );
         try {
