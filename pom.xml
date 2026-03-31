@@ -16,9 +16,17 @@
     <module>arrayexamples</module>
     <module>classObjects</module>
     <module>genericexamples</module>
+      <module>sortsetmapexamples</module>
+    <module>threadexamples</module>
+    <module>ThreadExampleWait</module>
+    <module>examplesUI</module>
+    <module>socetExamples</module>
+    <module>socketExamples</module>
   </modules>
 
   <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
